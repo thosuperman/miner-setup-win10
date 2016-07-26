@@ -1,0 +1,1 @@
+ethminer -G -ES -S daggerhashimoto.eu.nicehash.com:3353 -O 14vZ4DHDzhttzKyNAmLzpRq6VLmCGb16vX  --cl-global-work 16384

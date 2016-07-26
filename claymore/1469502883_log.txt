@@ -1,0 +1,166 @@
+20:14:43:627	2f4	commandline: "C:\Users\miner1\Desktop\Ethereum\claymore\EthDcrMiner64.exe" 
+20:14:43:629	2f4	
+20:14:43:644	2f4	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+20:14:43:649	2f4	บ      Claymore's Dual ETH + DCR/SC AMD GPU Miner v5.1 Beta      บ
+20:14:43:655	2f4	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+20:14:43:660	2f4	
+20:14:43:866	2f4	ETH: 1 pool is specified
+20:14:43:871	2f4	Main Ethereum pool is eth-us.dwarfpool.com:8008
+20:14:43:876	2f4	DCR: 0 pool is specified
+20:14:43:963	2f4	OpenCL platform: AMD Accelerated Parallel Processing
+20:14:43:971	2f4	
+Cards available: 1 
+20:14:43:974	2f4	GPU #0: name: Tonga, 4096 MB available, 32 compute units 
+20:14:43:975	2f4	Total cards: 1 
+20:14:43:981	2f4	Initializing...
+
+20:14:43:984	2f4	POOL/SOLO version
+20:14:43:985	2f4	b170 
+20:14:44:003	2f4	start building OpenCL program...
+20:14:47:976	2f4	done
+20:14:47:983	2f4	GPU #0: set -etha as 0 (ETH algo for fast cards)
+20:14:48:012	2dc	ETH: Stratum - connecting to 'eth-us.dwarfpool.com' <198.245.50.164> port 8008
+20:14:48:074	2dc	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x2a31a6b2096abc60a9b91cc0fed9d82b4fec56fb", ""], "id": 2, "method": "eth_submitLogin"}
+
+20:14:48:078	2dc	ETH: Stratum - Connected (eth-us.dwarfpool.com:8008)
+20:14:48:103	2f4	No pool specified for Decred! Ethereum-only mining mode is enabled
+20:14:48:108	2f4	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+20:14:48:111	2f4	ETH: eth-proxy stratum mode
+20:14:48:112	2f4	Watchdog enabled
+20:14:48:115	2f4	Remote management is enabled on port 3333
+20:14:48:118	2f4	
+20:14:48:145	2dc	got 39 bytes
+20:14:48:148	2dc	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+20:14:48:150	2dc	parse packet: 38
+20:14:48:150	2dc	ETH: Authorized
+20:14:48:156	2dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:14:48:159	2dc	new buf size: 0
+20:14:48:226	2dc	got 244 bytes
+20:14:48:229	2dc	buf: {"result":["0x71f9c3e6b7bf1b482015acb1fddb01b0a5dc9ee73e786a8b9fa5b9056a6b9fa8","0x9af06ef978f32ca9b26623831303c29c0884924f393bf6a7bbc166676bc8bf05","0x0000000225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"],"jsonrpc":"2.0","id":3}
+
+
+20:14:48:231	2dc	parse packet: 242
+20:14:48:231	2dc	eth: job changed
+20:14:48:238	2dc	new buf size: 0
+20:14:48:311	12a4	Setting DAG epoch #65...
+20:14:48:915	2dc	got 244 bytes
+20:14:48:918	2dc	buf: {"result":["0x84481cd8568740936bf533c9caaece3cacb13dd112c0ea448fb2107510887e20","0x9af06ef978f32ca9b26623831303c29c0884924f393bf6a7bbc166676bc8bf05","0x0000000225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"],"jsonrpc":"2.0","id":0}
+
+
+20:14:48:921	2dc	parse packet: 242
+20:14:48:921	2dc	eth: job changed
+20:14:48:932	2dc	new buf size: 0
+20:14:48:941	2dc	ETH: 07/25/16-20:14:48 - New job from eth-us.dwarfpool.com:8008
+20:14:48:942	2dc	target: 0x0000000225c17d04 (diff: 2000MH), epoch #65
+20:14:48:947	2dc	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+20:14:48:952	2dc	ETH: GPU0 0.000 Mh/s
+20:14:50:107	12a4	Setting DAG epoch #65 for GPU #0
+20:14:50:111	12a4	Create GPU buffer for GPU #0
+20:14:57:602	2dc	got 244 bytes
+20:14:57:608	2dc	buf: {"result":["0xb905bde96b7cd4f786759b2598c5087a7a6f11559494bb6293165507af988862","0x9af06ef978f32ca9b26623831303c29c0884924f393bf6a7bbc166676bc8bf05","0x0000000225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"],"jsonrpc":"2.0","id":0}
+
+
+20:14:57:615	2dc	parse packet: 242
+20:14:57:618	2dc	eth: job changed
+20:14:57:625	2dc	new buf size: 0
+20:14:57:631	2dc	ETH: 07/25/16-20:14:57 - New job from eth-us.dwarfpool.com:8008
+20:14:57:635	2dc	target: 0x0000000225c17d04 (diff: 2000MH), epoch #65
+20:14:57:638	2dc	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+20:14:57:641	2dc	ETH: GPU0 0.000 Mh/s
+20:14:58:244	2dc	ETH: checking pool connection...
+20:14:58:247	2dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:14:58:320	2dc	got 244 bytes
+20:14:58:325	2dc	buf: {"result":["0xb905bde96b7cd4f786759b2598c5087a7a6f11559494bb6293165507af988862","0x9af06ef978f32ca9b26623831303c29c0884924f393bf6a7bbc166676bc8bf05","0x0000000225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"],"jsonrpc":"2.0","id":3}
+
+
+20:14:58:330	2dc	parse packet: 242
+20:14:58:336	2dc	eth: job is the same
+20:14:58:341	2dc	new buf size: 0
+20:14:59:423	2dc	got 244 bytes
+20:14:59:426	2dc	buf: {"result":["0xb5801315b862357698386db0ecfb7161a1dc78da55950a50930cff7ab9f6979f","0x9af06ef978f32ca9b26623831303c29c0884924f393bf6a7bbc166676bc8bf05","0x0000000225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"],"jsonrpc":"2.0","id":0}
+
+
+20:14:59:434	2dc	parse packet: 242
+20:14:59:440	2dc	eth: job changed
+20:14:59:445	2dc	new buf size: 0
+20:14:59:447	2dc	ETH: 07/25/16-20:14:59 - New job from eth-us.dwarfpool.com:8008
+20:14:59:456	2dc	target: 0x0000000225c17d04 (diff: 2000MH), epoch #65
+20:14:59:462	2dc	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+20:14:59:466	2dc	ETH: GPU0 0.000 Mh/s
+20:15:00:157	12a4	GPU 0 DAG creation time 10023 ms
+20:15:00:164	12a4	Setting DAG epoch #65 for GPU #0 done
+20:15:08:243	2dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x1397521", "0x0000000000000000000000000000000000000000000000000000000022a2d585"]}
+
+20:15:08:259	2dc	ETH: checking pool connection...
+20:15:08:264	2dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:15:08:308	2dc	got 40 bytes
+20:15:08:311	2dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+
+20:15:08:315	2dc	parse packet: 38
+20:15:08:322	2dc	new buf size: 0
+20:15:08:367	2dc	got 244 bytes
+20:15:08:370	2dc	buf: {"result":["0xb5801315b862357698386db0ecfb7161a1dc78da55950a50930cff7ab9f6979f","0x9af06ef978f32ca9b26623831303c29c0884924f393bf6a7bbc166676bc8bf05","0x0000000225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"],"jsonrpc":"2.0","id":3}
+
+
+20:15:08:374	2dc	parse packet: 242
+20:15:08:375	2dc	eth: job is the same
+20:15:08:381	2dc	new buf size: 0
+20:15:11:347	2dc	got 244 bytes
+20:15:11:352	2dc	buf: {"result":["0x1c159c111f429c6baead4eaace6140fcb4a1f43f02dd4411c87ec47d7d93788f","0x9af06ef978f32ca9b26623831303c29c0884924f393bf6a7bbc166676bc8bf05","0x0000000225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"],"jsonrpc":"2.0","id":0}
+
+
+20:15:11:360	2dc	parse packet: 242
+20:15:11:368	2dc	eth: job changed
+20:15:11:374	2dc	new buf size: 0
+20:15:11:378	2dc	ETH: 07/25/16-20:15:11 - New job from eth-us.dwarfpool.com:8008
+20:15:11:381	2dc	target: 0x0000000225c17d04 (diff: 2000MH), epoch #65
+20:15:11:383	2dc	ETH - Total Speed: 20.564 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+20:15:11:390	2dc	ETH: GPU0 20.564 Mh/s
+20:15:18:169	2f4	GPU0 t=61C fan=53%
+20:15:18:175	2f4	em hbt: 0, fm hbt: 78, 
+20:15:18:179	2f4	watchdog - thread 0, hb time 328
+20:15:18:186	2f4	watchdog - thread 1, hb time 125
+20:15:18:276	2dc	ETH: checking pool connection...
+20:15:18:281	2dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:15:18:348	2dc	got 244 bytes
+20:15:18:351	2dc	buf: {"result":["0x1c159c111f429c6baead4eaace6140fcb4a1f43f02dd4411c87ec47d7d93788f","0x9af06ef978f32ca9b26623831303c29c0884924f393bf6a7bbc166676bc8bf05","0x0000000225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"],"jsonrpc":"2.0","id":3}
+
+
+20:15:18:359	2dc	parse packet: 242
+20:15:18:361	2dc	eth: job is the same
+20:15:18:369	2dc	new buf size: 0
+20:15:23:896	2dc	got 244 bytes
+20:15:23:898	2dc	buf: {"result":["0xda5a7ecb7bf327bccce4dd184875e980d47c6e8a3afb24c2c6455f3fc2ee3c2a","0x9af06ef978f32ca9b26623831303c29c0884924f393bf6a7bbc166676bc8bf05","0x0000000225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"],"jsonrpc":"2.0","id":0}
+
+
+20:15:23:907	2dc	parse packet: 242
+20:15:23:913	2dc	eth: job changed
+20:15:23:918	2dc	new buf size: 0
+20:15:23:956	2dc	ETH: 07/25/16-20:15:23 - New job from eth-us.dwarfpool.com:8008
+20:15:23:959	2dc	target: 0x0000000225c17d04 (diff: 2000MH), epoch #65
+20:15:23:968	2dc	ETH - Total Speed: 20.413 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+20:15:23:969	2dc	ETH: GPU0 20.413 Mh/s
+20:15:28:261	2dc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x139b1f7", "0x0000000000000000000000000000000000000000000000000000000022a2d585"]}
+
+20:15:28:291	2dc	ETH: checking pool connection...
+20:15:28:296	2dc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:15:28:327	2dc	got 40 bytes
+20:15:28:332	2dc	buf: {"id":6,"jsonrpc":"2.0","result":true}
+
+
+20:15:28:337	2dc	parse packet: 38
+20:15:28:343	2dc	new buf size: 0
+20:15:28:385	2dc	got 244 bytes
+20:15:28:388	2dc	buf: {"result":["0xda5a7ecb7bf327bccce4dd184875e980d47c6e8a3afb24c2c6455f3fc2ee3c2a","0x9af06ef978f32ca9b26623831303c29c0884924f393bf6a7bbc166676bc8bf05","0x0000000225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"],"jsonrpc":"2.0","id":3}
+
+
+20:15:28:397	2dc	parse packet: 242
+20:15:28:403	2dc	eth: job is the same
+20:15:28:409	2dc	new buf size: 0

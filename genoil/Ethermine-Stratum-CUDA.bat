@@ -1,0 +1,1 @@
+ethminer -U -S eu1.ethermine.org:4444 -O 683feddafc2a8542744a4587de0c45626d7b8e68.stratum --cuda-grid-size 8192 --cuda-block-size 128

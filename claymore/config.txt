@@ -1,0 +1,9 @@
+-epool eth-us.dwarfpool.com:8008
+-ewal 0x2a31a6b2096abc60a9b91cc0fed9d82b4fec56fb
+#-epsw x
+#-dpool stratum+tcp://yiimp.ccminer.org:4252
+#-dwal DsUt9QagrYLvSkJHXCvhfiZHKafVtzd7Sq4
+#-dpsw x
+#-esm 1
+#-mode 0
+#-tt 70

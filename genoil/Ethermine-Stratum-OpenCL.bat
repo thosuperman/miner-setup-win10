@@ -1,0 +1,1 @@
+ethminer -G -S eu1.ethermine.org:4444 -O 683feddafc2a8542744a4587de0c45626d7b8e68.stratum --cl-global-work 16384
