@@ -1,0 +1,1 @@
+SET miner_name=miner1
