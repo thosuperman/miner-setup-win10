@@ -1,1 +1,1 @@
-SET miner_name=miner1
+SET miner_name=miner2
