@@ -1,7 +1,12 @@
--epool us1.ethermine.org:4444
--ewal 0x2a31a6b2096abc60a9b91cc0fed9d82b4fec56fb.miner2
--esm 1
-#-eworker miner2
+# Normal pool
+#-epool us1.ethermine.org:4444
+#-ewal 0x2a31a6b2096abc60a9b91cc0fed9d82b4fec56fb.miner2
+#-esm 1
+
+# 51% Attack pool 
+-epool 51pool.org:8008
+-ewal 0x2a31a6b2096abc60a9b91cc0fed9d82b4fec56fb
+-eworker miner2
 
 # For dual mining with sia
 #-ethi 2
