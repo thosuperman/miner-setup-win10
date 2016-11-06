@@ -1,20 +1,20 @@
 # Normal pool
-#-epool us1.ethermine.org:4444
-#-ewal 0x2a31a6b2096abc60a9b91cc0fed9d82b4fec56fb.miner2
-#-esm 1
+-epool us1.ethermine.org:4444
+-ewal 0x2a31a6b2096abc60a9b91cc0fed9d82b4fec56fb.miner2
+-esm 1
 
 # MiningPoolHub
--epool us-east1.ethereum.miningpoolhub.com:20536
--ewal 0x2a31a6b2096abc60a9b91cc0fed9d82b4fec56fb
--eworker garrett92895.miner2
--allpools 1
+#-epool us-east1.ethereum.miningpoolhub.com:20536
+#-ewal 0x2a31a6b2096abc60a9b91cc0fed9d82b4fec56fb
+#-eworker garrett92895.miner2
+#-allpools 1
 
 # For dual mining with sia
 #-ethi 0
-#-dpool http://siamining.com:9980/miner/header?address=6cab3048443ac927f4811d0a6cd083c462d8420acd92ad2f5bb2cefb24f4182fd2b1ad17da37&worker=miner2
-#-dwal 6cab3048443ac927f4811d0a6cd083c462d8420acd92ad2f5bb2cefb24f4182fd2b1ad17da37
-#-dcoin sia
-#-dcri 28
+-dpool http://siamining.com:9980/miner/header?address=6cab3048443ac927f4811d0a6cd083c462d8420acd92ad2f5bb2cefb24f4182fd2b1ad17da37&worker=miner2
+-dwal 6cab3048443ac927f4811d0a6cd083c462d8420acd92ad2f5bb2cefb24f4182fd2b1ad17da37
+-dcoin sia
+-dcri 28
 
 
 #-dpsw x
